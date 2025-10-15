@@ -1,2 +1,2 @@
-# Hearable-Dongle
-README and Description of Project/Organization
+# VocalPoint
+We just be doing things
