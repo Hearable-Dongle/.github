@@ -133,11 +133,11 @@ Audio Input Stream
 - **Dual-streaming**: Simultaneous transmission to both hearing aids
 ## Data Flow Diagram
 ```
-[Mic Array] ──┐
-               ├──> [Audio Sync] ──> [VAD] ──> [Speaker ID] ──┐
-[Phone/WiFi] ──┘                                              │
-                                                              │
-                              ┌───────────────────────────────┘
+[Mic Array]  ──┐
+               ├──> [Input select] ──> [DSP] ──> [VAD] ──> [Speaker ID]
+[Phone/WiFi] ──┘                                               │
+                                                               │
+                              ┌────────────────────────────────┘
                               │
                               ▼
                      [Priority Router]
